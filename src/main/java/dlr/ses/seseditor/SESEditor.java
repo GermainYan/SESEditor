@@ -643,7 +643,7 @@ public class SESEditor extends JPanel {
         menuFile.add(menuItemExport);
 
         //convertion in XML menuExportXml
-        menuExportXml=new JMenuItem("Export en XML",KeyEvent.VK_X);
+        menuExportXml=new JMenuItem("Export in XML",KeyEvent.VK_X);
         menuExportXml.addActionListener(new ActionListener() {
         	FileConvertion fileConversion = new FileConvertion();
 			@Override
